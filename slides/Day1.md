@@ -819,7 +819,7 @@ Next statement
 <!-- .slide: data-auto-animate data-auto-animate-id="switch" -->
 ## switch statements
 ```csharp [0|1|3|8|9-12|11|20]
-switch ( "Saladpuk" )
+switch ( "Banana" )
 {
 	case "Apple":
 	{
