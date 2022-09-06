@@ -1448,10 +1448,10 @@ Lightweight data structure
 <!-- .slide: data-auto-animate data-auto-animate-id="methods" -->
 ## Methods
 Recursive method
-```csharp [0|3|1|3|1]
-void Method()
+```csharp [0]
+void MethodA()
 {
-	return Method();
+    MethodA();
 }
 ```
 <!-- .element: style="width:40%" -->
