@@ -1339,7 +1339,7 @@ public class Swordsman
 ```csharp [0]
 var sm1 = new Swordsman();
 sm1.Lv = 55;
-//sm.Rank = 77;  // ❌ Error
+//sm1.Rank = 77; // ❌ Error
 sm1.ShowRank();  // Output: 0
 Swordsman.Rank = 100;
 sm1.ShowRank();  // Output: 100
