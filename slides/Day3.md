@@ -516,9 +516,9 @@ public interface IOperationalRepository { Task Upsert();  }
 <!-- .element: style="width:100%" -->
 ```csharp [0]
 public interface IRepository :
-    IDeletableRepository
+    IDeletableRepository,
     IQueryableRepository,
-    IOperationalRepository,
+    IOperationalRepository
 {
 }
 ```
