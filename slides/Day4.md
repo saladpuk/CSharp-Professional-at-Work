@@ -236,7 +236,7 @@ double Divide(double dividend, double divisor)
 
 <!-- .slide: data-auto-animate data-auto-animate-id="exception" -->
 ## Exception Handling
-📖 How to read an error messages
+📖 How to read error messages
 ```
 Unhandled exception. System.InvalidOperationException: Operation is not valid due to the current state of the object.
    at ConsoleApp2.SqlDatabaseConnector.Connect() in D:\g\t3mp\ConsoleApp2\ConsoleApp2\Program.cs:line 23
@@ -775,7 +775,7 @@ public void Print(string msg)
     Console.WriteLine(msg);
 }
 
-// 🦥 
+// 🦥 It's my way
 public void Print(string msg)
     => Console.WriteLine(msg);
 ```
